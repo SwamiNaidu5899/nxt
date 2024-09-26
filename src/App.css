@@ -1,0 +1,957 @@
+.app{
+    height: 400v;
+    width: 100%;
+    padding: 2vh;
+}
+.collection-banner-main{
+    height: 50vh;
+    width: 100%;
+}
+
+.collection-banner-watch{
+    height: 25vh;
+    width: 100%;
+    background-image: url('https://nextall.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-1.b70b1232.png&w=640&q=75');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+ 
+}
+
+.collection-banner-watch h1,.collection-banner-shoe h1{
+    font-size: 15px;
+}
+
+.collection-banner-watch p, .collection-banner-shoe p{
+    font-size: 8px;
+}
+
+.collection-banner-main button{
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    
+}
+
+.collection-banner-watch button{
+    background: rgb(238, 30, 80);
+}
+
+.collection-banner-shoe button{
+    background: rgb(34, 136, 235);
+}
+
+.collection-banner-shoe{
+    height: 25vh;
+    width: 100%;
+    background-image: url('https://nextall.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-2.b3777bbb.png&w=1920&q=75');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 2vh;
+    display: flex;
+    padding: 20px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* //Categories// */
+
+.category-main{
+    height: 75vh;
+    text-align: center;
+    margin-top: 6vh;
+}
+
+.categories{
+    display: flex;
+    height: 30vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.each-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.each-category img:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+    border: 3px solid  rgb(238, 30, 80);
+}
+
+.each-category img{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+
+.each-category h6{
+    margin-top: 2vh;
+}
+
+/* ViewMoreBTN */
+
+.view-more-btn button{
+    color: rgb(238, 30, 80);
+    border: none;
+    background-color: transparent;
+    margin-top: 15vh;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Selling Products */
+
+.selling-products-main{
+    margin-top: 3vh;
+}
+
+.products-header{
+    text-align: center;
+}
+.each-product{
+    height: 40vh;
+    background-color: white;
+    margin-top: 2vh;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.product-img{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-img img{
+    height: 20vh;
+    width: 20vh;
+    background-blend-mode:color-burn ;
+}
+.product-data{
+    margin-top: 5vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-data h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.product-data span{
+    font-weight: 600;
+}
+
+.btn-bsp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Best Shops */
+
+.best-shops-main{
+    margin-top: 3vh;
+    height: 360vh;
+}
+
+.best-shops-main p{
+    font-weight: 600;
+    color: gray;
+}
+
+.header-best-shops{
+    text-align: center;
+}
+
+.cards-sec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.each-card{
+    height: 65vh;
+    border: 1px solid gray;
+    border-radius: 16px;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+}
+
+.banner-img-bs{
+    height: 18vh;
+}
+
+.banner-img-bs img{
+    width: 100%;
+    height: 21.2vh;
+    border-radius: 16px 16px 0 0 ;
+}
+
+.best-shops-btns{
+    height: 22vh;
+}
+
+.overlap-img{
+        height: 15vh;
+        width: 15vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        position: relative;
+        top: -10vh;
+        left: 38%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.overlap-img img{
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+   
+}
+
+.btn-main-div{
+    position: relative;
+    top: -10vh;
+}
+
+.btn-vs-f{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-vs-f .btn-vs{
+    background-color: transparent;
+    border: 1px solid #EE1E50;
+    color: #EE1E50;
+    padding: 4px 10px ;
+    border-radius: 20px;
+}
+
+.btn-vs-f .btn-f{
+    background-color: transparent;
+    border: 1px solid rgb(34, 136, 235);
+    color: rgb(34, 136, 235);
+    padding: 4px 10px ;
+    border-radius: 20px;
+}
+
+.followers-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-data{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+/* Nav-Bar-min */
+
+.navBar-min{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 88vh;
+    background-color: rgba(255, 255, 255, 0.781);
+    margin-left: -3%;
+}
+
+.navBar-min div{
+    height: 15vh;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.navBar-min div:hover{
+    background-color: #EE1E50;
+    color: white;
+}
+
+/* fc */
+
+.future-collection{
+    margin-top: 20vh;
+}
+
+.review-arrow{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.review-arrow div{
+    height: 5vh;
+    width: 5vh;
+    background-color: #EE1E50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.review-about div i{
+    font-weight: 900;
+
+}
+
+/* //Media > 768 */
+
+
+@media screen and (min-width:767px) {
+
+    .collection-banner-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .collection-banner-watch{
+        height: 30vh;
+        width: 48%;
+
+    }
+
+    .collection-banner-shoe h1, .collection-banner-watch h1{
+        font-size: 18px;
+    }
+    .collection-banner-shoe{
+        height: 30vh;
+        margin-top: 0vh;
+        width: 48%;
+    }
+
+    
+
+    .category-main {
+        height: 85vh; 
+    }
+
+    .each-category{
+        width: 30%;
+    }
+
+    .each-category img{
+        height: 20vh;
+        width: 20vh;
+    }
+
+    .each-card{
+        margin-top: 4vh;
+    }
+
+    .each-product{
+        height: 60vh;
+    }
+
+    .product-img{
+        height: 40vh;
+    }
+
+    .product-img img{
+        height: 40vh;
+    }
+
+    .product-data{
+        height: 20vh;
+    }
+
+    .best-shops-main{
+        height: 240vh;
+    }
+
+    .btn-cat{
+        margin-top: 12vh;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    .navBar-min{
+        display: none;
+    }
+
+    .navMax{
+        height: 12vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        z-index: 1;
+    }
+
+    .logo-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 12vh;
+        width: 40%;
+    }
+
+    .logo img{
+        height: 12vh;
+    }
+
+    .searchBox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .searchBox input{
+        padding: 20px;
+        height: 9vh;
+        width: 80%;
+        border-radius: 80px;
+        border: 1px solid gray;
+    }
+
+    .inp-inside-icon{
+        height: 7vh;
+        width: 7vh;
+        background-color: #ff87a390;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: relative;
+        left: -17%;
+        border: 1px solid rgb(238, 30, 80);
+    }
+
+    .inp-inside-icon i{
+   
+        color:rgb(238, 30, 80) ;
+
+    }
+
+    .icons{
+        height: 12vh;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    }
+
+    .icon-data{
+        position: relative;
+        top: 1.8vh;
+        font-size: 10px;
+    }
+
+    /* navItems/ */
+
+    .total-bg{
+        width: 100%;
+        background-color: #EE1E50;
+        display: flex;
+        align-items: center;
+        height: 8vh;
+        justify-content: center;
+        position: fixed;
+        top: 12vh;
+        z-index: 1;
+
+    }
+    .navitems{
+        height: 8vh;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .navitems p{
+        margin-top: 2vh;
+        font-weight: 600;
+    }
+
+    .item-col-1{
+        height: 8vh;
+        width: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+
+    }
+
+    .item-col-2{
+        width: 50%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
+    .collection-banner-main{
+        margin-top: 8%;
+    }
+
+    .each-product{
+        height: 60vh;
+    }
+
+    .product-img{
+        height: 40vh;
+    }
+
+    .product-img img{
+        height: 40vh;
+    }
+
+    .product-data{
+        height: 20vh;
+    }
+
+    .view-more-btn button{
+        height: 6vh;
+        background-color: #EE1E50;
+        color: white;
+        padding: 8px 10px;
+        border-radius: 40px;
+        margin-top: 0vh;
+    }
+
+    .btn-bsp{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .category-main{
+        height: 65vh;
+        text-align: center;
+        margin-top: 6vh;
+    }
+
+
+    .each-category{
+        margin-top: 3vh;
+        width: 16%;
+    }
+
+    .headphone-banner{
+        margin-top: 2vh;
+        height: 85vh;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        background-position: center;
+        padding: 10vh;
+        background-size: cover;
+        background-image: url('https://nextall.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-3.11a8eff5.png&w=1080&q=75');
+    }
+
+    .headphone-banner h1{
+        font-weight: 900;
+    }
+
+    .headphone-banner p {
+        font-weight: 600;
+    }
+
+    .headphone-banner button{
+        color: white;
+        border: none;
+        background-color: rgb(34, 136, 235);
+        font-weight: 700;
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 40px;
+    }
+
+    .collection-banner-watch,.collection-banner-shoe{
+        height: 45vh;
+    }
+
+    .collection-banner-shoe h1, .collection-banner-watch h1{
+        font-size: 30px;
+    }
+
+    .collection-banner-watch p, .collection-banner-shoe p{
+        font-size: 14px;
+    }
+    .collection-banner-shoe button, .collection-banner-watch button{
+        font-size: 17px;
+    }
+
+    /* //Brands */
+
+    .brands-main{
+        margin-top: 3vh;
+        height: 75vh;
+    }
+
+    .brands-main h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .brands-main p{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .brands{
+        margin-top: 8vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .eachBrand{
+        width: 14%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 14vh;
+        border: 1px solid black;
+        margin: 2px;
+        margin-bottom: 5vh;
+        padding: 5px;
+        border-radius: 12px;
+    }
+
+    .eachBrand:hover{
+        background-color: gray;
+        transition:  all 0.6s;
+    }
+
+    .brand-data{
+        text-align: center;
+        font-weight: 600;
+    }
+
+    /* //Review */
+
+    .review{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-size: contain;
+        object-fit: fill; 
+        background-position: center;
+        background-image: url('https://nextall.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial.e2ecf5ed.png&w=1920&q=75');
+    }
+
+    .review-col-1{
+        height: 70vh;
+        width: 49%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .review-col-2{
+        height: 75vh;
+        width: 50%;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .review-col-2 .review-div{
+        height: 60vh;
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .review-div .stars{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .stars i{
+        color: gold;
+    }
+
+    .review-img{
+        height: 14vh;
+        width: 14vh;
+        border-radius: 50%;
+        background-color: rgb(154, 103, 202);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .review-img img{
+        height: 9vh;
+        width: 9vh;
+        border-radius: 50%;
+    }
+
+    .review-data{
+        height: 16vh;
+        width: 16%;
+        border-radius: 20px;
+        background-color: #EE1E50;
+        position: relative;
+        top: -20vh;
+        left: 53%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .patch-icon{
+        width: 30%;
+    }
+
+    .patch-icon i{
+        font-weight: 800;
+    }
+
+    .patch-data{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .online-support-main{
+        width: 98%;
+        margin-left: 1%;
+        height: 16vh;
+        border-radius: 12px;
+        background-color: white;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        padding: 25px;
+        justify-content: space-around;
+    }
+
+    .each-one{
+        height: 10vh;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-right: 1px solid gray;
+        padding: 25px;
+    }
+
+    .support-img{
+        width: 20%;
+    }
+
+    .support-img i{
+        color: #EE1E50;
+        font-size: 2.2rem;
+    }
+
+    .support-data{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .support-data h3{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .support-data p{
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width : 768px) {
+    .navMax{
+        display: none;
+    }
+
+    .navitems{
+        display: none;
+    }
+    .headphone-banner{
+        display: none;
+    }
+
+    .brands-main{
+        display: none;
+    }
+
+    .review-data{
+        display: none;
+    }
+
+
+    .review{
+        height: 120vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-size: contain;
+        object-fit: fill; 
+        background-position: center;
+        background-image: url('https://nextall.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial.e2ecf5ed.png&w=1920&q=75');
+    }
+
+    .review-col-1{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .review-col-2{
+        height: 80vh;
+        width: 100%;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .review-col-2 .review-div{
+        height: 85vh;
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .review-div .stars{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .stars i{
+        color: gold;
+    }
+
+    .review-img{
+        height: 14vh;
+        width: 14vh;
+        border-radius: 50%;
+        background-color: rgb(154, 103, 202);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .review-img img{
+        height: 9vh;
+        width: 9vh;
+        border-radius: 50%;
+    }
+
+    .review-about{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width:1200px) {
+    .best-shops-main{
+        height: 150vh;
+    }
+
+    .collection-banner-main{
+        margin-top: 20vh;
+    }
+}
