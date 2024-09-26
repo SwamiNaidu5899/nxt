@@ -1,5 +1,4 @@
 import React from 'react'
-import Feedback from 'react-bootstrap/esm/Feedback'
 
 const OnlineSupport = () => {
 
@@ -46,6 +45,7 @@ const OnlineSupport = () => {
 
                         <p>{eachItem.desc}</p>
                     </div>
+                    
                     </div>
                 )
             })
